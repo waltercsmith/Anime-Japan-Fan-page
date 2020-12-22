@@ -23,6 +23,9 @@ console.log("Nice to meet you, " + userInput);
 var confirmed = confirm(userInput +", Do you want to view the page?");
 console.log(confirmed);
 
+function confirm() {
+    
+}
 
 
 
