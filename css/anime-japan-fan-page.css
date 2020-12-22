@@ -10,7 +10,10 @@ figcaption {
 
 }
 
-/*.col-sm-4 {*/
-/*    border-color: black;*/
-/*    border-style: solid;*/
-/*}*/
+.col-sm-4 {
+    border-color: black;
+    border-style: solid;
+}
+
+#rising-sun {
+}
