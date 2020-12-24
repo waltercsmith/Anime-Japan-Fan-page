@@ -47,7 +47,7 @@ var japanMain = {
 
 };
 
-//Executing an order for a set interval of time, specifically every 5 seconds
+//Executing an order for a set interval of time, specifically every 2 seconds
 
 var count = 0;
 
@@ -66,6 +66,24 @@ var intervalId = setInterval(function () {
 }, interval);
 
 
+//Want to use a setTimeout() method to change the innerHTML of my h1 tag Japan to the official Japanese-language name
+var delay = 15000;
+var timeoutId = setTimeout(function () {
+    (function () {
+        var h1Tag = document.getElementById("japan-name-changer");
+        console.log(h1Tag.innerHTML);
+        h1Tag.innerText = "Nippon-koku";
+
+    })();
+    
+},delay);
+
+// (function () {
+//     var h1Tag = document.getElementById("japan-name-changer");
+//     console.log(h1Tag.innerHTML);
+//     h1Tag.innerText = "Nippon-koku";
+//
+// })();
 
 
 
