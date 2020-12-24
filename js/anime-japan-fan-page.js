@@ -39,6 +39,37 @@ for (var i = 0; i < 20; i++){
     }
 }
 
+//Created an object with properties that coincide with the three sub-sections of the page: cuisine,location & anime
+var japanMain = {
+    cuisine: ["Gyūdon","Ramen"],
+    location: "Mount Fuji",
+    anime: ["Guts", "Vegeta"]
+
+};
+
+//Executing an order for a set interval of time, specifically every 5 seconds
+
+var count = 0;
+
+var max = 5;
+
+var interval = 2000;
+
+var intervalId = setInterval(function () {
+    if(count >= max){
+        clearInterval(intervalId)
+        console.log("Japan is awesome times " + max +"0000!");
+    }else {
+        count++;
+        console.log("Japan is awesome, right!?!!");
+    }
+}, interval);
+
+
+
+
+
+
 
 
 
