@@ -85,6 +85,8 @@ var timeoutId = setTimeout(function () {
 //
 // })();
 
+// Goal is to click on the nav-item named cuisine and it takes the user to the cuisine section and highlights cuisine
+//
 
 
 
