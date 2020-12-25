@@ -86,7 +86,13 @@ var timeoutId = setTimeout(function () {
 // })();
 
 // Goal is to click on the nav-item named cuisine and it takes the user to the cuisine section and highlights cuisine
-//
+var listener = function (event) {
+    alert("Wow, look at what happened!");
+    
+}
+document.getElementById('cuisine-changer').addEventListener('click', listener);
+
+
 
 
 
