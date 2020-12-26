@@ -92,6 +92,9 @@ var listener = function (event) {
 }
 document.getElementById('cuisine-changer').addEventListener('click', listener);
 
+$('.japan-prime').css('background-color', 'firebrick');
+
+
 
 
 
