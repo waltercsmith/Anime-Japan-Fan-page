@@ -94,6 +94,16 @@ document.getElementById('cuisine-changer').addEventListener('click', listener);
 
 $('.japan-prime').css('background-color', 'firebrick');
 
+$('#cuisine-hover-red').hover(
+    function () {
+        $(this).css('background-color', 'red')
+    },
+    function () {
+        $(this).css('color', 'blue');
+
+    }
+);
+
 
 
 
