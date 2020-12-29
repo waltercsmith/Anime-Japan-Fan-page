@@ -113,9 +113,10 @@ $('#second-paragraph').dblclick(
 
 $('#second-paragraph').click(
     function () {
-        $(this)
+        $(this).css('background-color', 'gray')
     }
-)
+);
+
 
 
 
