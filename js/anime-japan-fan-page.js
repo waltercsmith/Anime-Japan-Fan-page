@@ -117,6 +117,10 @@ $('#second-paragraph').click(
     }
 );
 
+$('#text-field').keyup(function () {
+    $(this).css('color', 'blue');
+})
+
 
 
 
