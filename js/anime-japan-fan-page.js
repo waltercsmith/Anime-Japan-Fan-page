@@ -96,7 +96,7 @@ $('.japan-prime').css('background-color', 'firebrick');
 
 $('#cuisine-hover-red').hover(
     function () {
-        $(this).css('background-color', 'red')
+        $(this).css('background-color', 'firebrick')
     },
     function () {
         $(this).css('color', 'blue');
@@ -104,6 +104,18 @@ $('#cuisine-hover-red').hover(
     }
 );
 
+
+$('#second-paragraph').dblclick(
+    function () {
+        $(this).css('background-color', 'firebrick')
+    }
+);
+
+$('#second-paragraph').click(
+    function () {
+        $(this)
+    }
+)
 
 
 
