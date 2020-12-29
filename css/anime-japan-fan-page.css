@@ -27,7 +27,28 @@ p {
     color: white;
 }
 
-/*footer {*/
-/*    margin: auto;*/
-/*    width: 50%;*/
-/*}*/
+#text-field {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 10px;
+    line-height: 140%;
+}
+
+#red-badge {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: firebrick;
+
+
+
+
+}
+
+
